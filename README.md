@@ -1,5 +1,6 @@
 # Cartopy Projections Gallery
 
+<<<<<<< HEAD
 A reproducible gallery of **all 38 projections listed in the Cartopy 0.25 projection reference**, with one standalone Python script and one rendered PNG for each projection. The collection mixes a high-contrast cartographic style (gold land and blue ocean) with selected shaded-relief maps.
 
 **Author:** Nelson Ribeiro-Filho  
@@ -106,3 +107,28 @@ Cartopy is a third-party project released under the BSD 3-Clause license. Matplo
 ## License
 
 The original scripts, repository organization and generated gallery created for this project are proprietary. See [`LICENSE`](LICENSE). Third-party dependencies remain under their own licenses.
+=======
+A repository dedicated to illustrating examples of Cartopy usage for creating maps and geospatial visualizations in Python.
+
+The project explores different map projections, coordinate reference systems, map customization, and the visualization of geographic and scientific data using the Python scientific ecosystem.
+
+Objectives
+* Demonstrate the use of Cartopy for map creation;
+* Explore different cartographic projections;
+* Illustrate geospatial data visualization techniques;
+* Provide practical examples for learning and reference;
+* Support the development of cartographic and scientific visualizations in Python.
+
+Technologies
+* **Python**;
+* Cartopy;
+* Matplotlib;
+* NumPy;
+* Pandas
+
+Contents
+
+The repository contains practical examples covering different aspects of Cartopy, including map projections, coordinate systems, geographic features, map customization, and spatial data visualization.
+
+This repository is intended as a practical and educational reference for students, researchers, and developers working with cartography, geospatial analysis, geosciences, and scientific visualization.
+>>>>>>> 2968fd297fa0ec062f371c816c4ceb39f14800b4

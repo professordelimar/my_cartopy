@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Cartopy Projections Gallery"
+type: software
+authors:
+  - family-names: "Ribeiro-Filho"
+    given-names: "Nelson"
+year: 2026
+version: "1.0.0"
+repository-code: "https://github.com/professordelimar/cartopy_projections"

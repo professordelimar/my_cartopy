@@ -1,0 +1,11 @@
+name: cartopy-projections
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - cartopy=0.25
+  - matplotlib
+  - numpy
+  - shapely
+  - pyproj
+  - proj>=9.6

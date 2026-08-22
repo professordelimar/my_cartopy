@@ -1,0 +1,146 @@
+git add scripts/plate_carree.py images/plate_carree.png
+git commit -m "Add PlateCarree projection example"
+
+git add scripts/albers_equal_area.py images/albers_equal_area.png
+git commit -m "Add AlbersEqualArea projection example"
+
+git add scripts/azimuthal_equidistant.py images/azimuthal_equidistant.png
+git commit -m "Add AzimuthalEquidistant projection example"
+
+git add scripts/equidistant_conic.py images/equidistant_conic.png
+git commit -m "Add EquidistantConic projection example"
+
+git add scripts/lambert_conformal.py images/lambert_conformal.png
+git commit -m "Add LambertConformal projection example"
+
+git add scripts/lambert_cylindrical.py images/lambert_cylindrical.png
+git commit -m "Add LambertCylindrical projection example"
+
+git add scripts/mercator.py images/mercator.png
+git commit -m "Add Mercator projection example"
+
+git add scripts/miller.py images/miller.png
+git commit -m "Add Miller projection example"
+
+git add scripts/mollweide.py images/mollweide.png
+git commit -m "Add Mollweide projection example"
+
+git add scripts/oblique_mercator.py images/oblique_mercator.png
+git commit -m "Add ObliqueMercator projection example"
+
+git add scripts/orthographic.py images/orthographic.png
+git commit -m "Add Orthographic projection example"
+
+git add scripts/robinson.py images/robinson.png
+git commit -m "Add Robinson projection example"
+
+git add scripts/sinusoidal.py images/sinusoidal.png
+git commit -m "Add Sinusoidal projection example"
+
+git add scripts/stereographic.py images/stereographic.png
+git commit -m "Add Stereographic projection example"
+
+git add scripts/transverse_mercator.py images/transverse_mercator.png
+git commit -m "Add TransverseMercator projection example"
+
+git add scripts/utm_zone_22s.py images/utm_zone_22s.png
+git commit -m "Add UTM projection example"
+
+git add scripts/interrupted_goode_homolosine.py images/interrupted_goode_homolosine.png
+git commit -m "Add InterruptedGoodeHomolosine projection example"
+
+git add scripts/rotated_pole.py images/rotated_pole.png
+git commit -m "Add RotatedPole projection example"
+
+git add scripts/osgb.py images/osgb.png
+git commit -m "Add OSGB projection example"
+
+git add scripts/lambert_zone_ii.py images/lambert_zone_ii.png
+git commit -m "Add LambertZoneII projection example"
+
+git add scripts/europp.py images/europp.png
+git commit -m "Add EuroPP projection example"
+
+git add scripts/geostationary.py images/geostationary.png
+git commit -m "Add Geostationary projection example"
+
+git add scripts/nearside_perspective.py images/nearside_perspective.png
+git commit -m "Add NearsidePerspective projection example"
+
+git add scripts/eckert_i.py images/eckert_i.png
+git commit -m "Add EckertI projection example"
+
+git add scripts/eckert_ii.py images/eckert_ii.png
+git commit -m "Add EckertII projection example"
+
+git add scripts/eckert_iii.py images/eckert_iii.png
+git commit -m "Add EckertIII projection example"
+
+git add scripts/eckert_iv.py images/eckert_iv.png
+git commit -m "Add EckertIV projection example"
+
+git add scripts/eckert_v.py images/eckert_v.png
+git commit -m "Add EckertV projection example"
+
+git add scripts/eckert_vi.py images/eckert_vi.png
+git commit -m "Add EckertVI projection example"
+
+git add scripts/spilhaus.py images/spilhaus.png
+git commit -m "Add Spilhaus projection example"
+
+git add scripts/aitoff.py images/aitoff.png
+git commit -m "Add Aitoff projection example"
+
+git add scripts/equal_earth.py images/equal_earth.png
+git commit -m "Add EqualEarth projection example"
+
+git add scripts/gnomonic.py images/gnomonic.png
+git commit -m "Add Gnomonic projection example"
+
+git add scripts/hammer.py images/hammer.png
+git commit -m "Add Hammer projection example"
+
+git add scripts/lambert_azimuthal_equal_area.py images/lambert_azimuthal_equal_area.png
+git commit -m "Add LambertAzimuthalEqualArea projection example"
+
+git add scripts/north_polar_stereo.py images/north_polar_stereo.png
+git commit -m "Add NorthPolarStereo projection example"
+
+git add scripts/osni.py images/osni.png
+git commit -m "Add OSNI projection example"
+
+git add scripts/south_polar_stereo.py images/south_polar_stereo.png
+git commit -m "Add SouthPolarStereo projection example"
+
+git add README.md
+git commit -m "Document Cartopy projection gallery"
+
+git add PROJECTIONS.md
+git commit -m "Add projection catalog"
+
+git add requirements.txt
+git commit -m "Add Python dependencies"
+
+git add environment.yml
+git commit -m "Add conda environment"
+
+git add run_all.py
+git commit -m "Add gallery batch runner"
+
+git add THIRD_PARTY_NOTICES.md
+git commit -m "Add third-party notices"
+
+git add CITATION.cff
+git commit -m "Add citation metadata"
+
+git add LICENSE
+git commit -m "Add proprietary license"
+
+git add .gitignore
+git commit -m "Add Python gitignore"
+
+git add VALIDATION.txt
+git commit -m "Add validation report"
+
+git add GIT_COMMANDS.txt
+git commit -m "Add repository commit workflow"

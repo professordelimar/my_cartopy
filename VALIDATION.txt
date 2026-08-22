@@ -1,0 +1,31 @@
+Cartopy Projections Gallery — validation report
+================================================
+
+Repository contents
+-------------------
+Projection scripts: 38
+Rendered PNG previews: 38
+Batch runner: 1 (run_all.py)
+Total Python files syntax-validated: 39
+Preview output resolution: 400 dpi
+
+Validation performed
+--------------------
+- All 38 projection scripts compile successfully at Python syntax level.
+- run_all.py compiles successfully.
+- All 38 expected PNG files are present in images/.
+- The committed preview images were rendered at 400 dpi in the artifact-build environment.
+
+Runtime note
+------------
+Cartopy itself was not available in the artifact-build container, so the committed previews were rendered with equivalent PROJ projection definitions and Basemap/Natural-Earth-style geometry; selected shaded-relief previews use Basemap's packaged ETOPO raster. The standalone scripts in scripts/ are Cartopy-native and are the canonical implementations for this repository.
+
+For strict Cartopy reproduction, create the conda-forge environment from environment.yml and run:
+
+    python run_all.py
+
+This regenerates images/ directly with Cartopy and Natural Earth 10m features at 400 dpi.
+
+Spilhaus note
+-------------
+Cartopy 0.25's Spilhaus projection requires PROJ 9.6 or newer. The provided environment.yml explicitly requests proj>=9.6. The committed Spilhaus preview was produced with a compatible implementation of the projection equations because the local build environment used PROJ 9.5.1.
